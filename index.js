@@ -40,7 +40,7 @@ async function getMediaLink(docId) {
         var thumbResponse = await reqThumbnail;
         var thumbSource = thumbResponse.headers.location;
         return ({
-            link: videoSource,
+            src: videoSource,
             thumbnail: thumbSource
         });
     } catch (error) {
