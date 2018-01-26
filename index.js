@@ -20,6 +20,8 @@ async function getMediaLink(docId) {
     try {
         var reqThumbnail = got.get('https://drive.google.com/thumbnail?sz=w320&id=' + docId, {
             followRedirect: false
+        }).catch((x) => {
+            return null;
         });
         var reqMedia = await got.get('https://drive.google.com/uc?id=' + docId + '&export=download');
         var responseCookies = setCookie.parse(reqMedia.headers["set-cookie"]);
@@ -38,7 +40,7 @@ async function getMediaLink(docId) {
         });
         var videoSource = reqMediaConfirm.headers.location;
         var thumbResponse = await reqThumbnail;
-        var thumbSource = thumbResponse.headers.location;
+        var thumbSource = (thumbResponse && thumbResponse.headers && thumbResponse.headers.location) || '';
         return ({
             src: videoSource,
             thumbnail: thumbSource
