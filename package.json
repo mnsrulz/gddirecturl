@@ -4,7 +4,8 @@
   "description": "Google drive public link to direct downloadable media url (Video only)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/babel -d ./ src/"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,15 @@
     "cheerio": "^1.0.0-rc.2",
     "cookie": "^0.3.1",
     "got": "^8.0.3",
-    "set-cookie-parser": "^2.0.0"
+    "set-cookie-parser": "^2.0.0",
+    "babel-cli": "^6.26.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
 }
