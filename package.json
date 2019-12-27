@@ -1,6 +1,6 @@
 {
   "name": "gddirecturl",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Google drive public link to direct downloadable media url (Video only)",
   "main": "index.js",
   "scripts": {
