@@ -2,6 +2,7 @@
 Google drive public link to direct downloadable media url (Video only)
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mnsrulz/gddirecturl/blob/master/LICENSE)
+[![CI](https://github.com/mnsrulz/gddirecturl/actions/workflows/main.yml/badge.svg)](https://github.com/mnsrulz/gddirecturl/actions/workflows/main.yml)
 [![npm latest package](https://img.shields.io/npm/v/gddirecturl/latest.svg)](https://www.npmjs.com/package/gddirecturl)
 [![npm downloads](https://img.shields.io/npm/dm/gddirecturl.svg)](https://www.npmjs.com/package/gddirecturl)
 [![github forks](https://img.shields.io/github/forks/mnsrulz/gddirecturl.svg)](https://github.com/mnsrulz/gddirecturl/network/members)
