@@ -1,6 +1,6 @@
 {
   "name": "gddirecturl",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Google drive public link to direct downloadable media url (Video only)",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/mnsrulz/gddirecturl#readme",
   "engines": {
-		"node": ">=14"
-	},
+    "node": ">=14"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "cookie": "^0.3.1",
