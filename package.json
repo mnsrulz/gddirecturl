@@ -25,7 +25,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "cookie": "^0.3.1",
-    "got": "^8.3.2",
+    "got": "^11.8.5",
     "set-cookie-parser": "^2.4.1"
   },
   "devDependencies": {
