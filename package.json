@@ -4,11 +4,11 @@
   "description": "Google drive public link to direct downloadable media url (Video only)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manishrawat4u/gddirecturl.git"
+    "url": "git+https://github.com/mnsrulz/gddirecturl.git"
   },
   "keywords": [
     "google",
@@ -16,17 +16,19 @@
     "direct",
     "link"
   ],
-  "author": "manishrawat4u",
+  "author": "mnsrulz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manishrawat4u/gddirecturl/issues"
+    "url": "https://github.com/mnsrulz/gddirecturl/issues"
   },
-  "homepage": "https://github.com/manishrawat4u/gddirecturl#readme",
+  "homepage": "https://github.com/mnsrulz/gddirecturl#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "cookie": "^0.3.1",
     "got": "^8.3.2",
     "set-cookie-parser": "^2.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "^5.1.0"
+  }
 }
