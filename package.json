@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/mnsrulz/gddirecturl#readme",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "devDependencies": {
     "ava": "^5.1.0"
